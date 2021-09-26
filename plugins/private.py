@@ -32,8 +32,8 @@ async def start(client, message):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("Owner", url=f"https://t.me/ThaniOruvan25"),
+                InlineKeyboardButton("Co Admin ", url=f"https://t.me/ThaniOruvan25"),
             ],
             [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
@@ -92,8 +92,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
             ],
             [
-                InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("Owner", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Co Admin 📦", url=f"https://t.me/ThaniOruvan25"),
             ],
             [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
